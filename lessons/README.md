@@ -4,6 +4,7 @@
 
 ## 已完成课程
 
+- `00-first-step/`: 第一行 Python、变量和输出。
 - `01-variables-and-flow/`: 变量、数据类型、输入输出、函数和 f-string。
 - `02-conditions-and-loops/`: 布尔判断、if/elif/else、for 循环和枚举。
 - `03-lists-dicts-functions/`: 列表、字典、排序和函数组合。
