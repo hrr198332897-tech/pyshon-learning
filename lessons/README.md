@@ -13,6 +13,7 @@
 - `07-pandas-basics/`: DataFrame、筛选、分组汇总和结果导出。
 - `08-scikit-learn/`: 数据集划分、Pipeline、训练、预测和准确率评估。
 - `09-tfidf-retrieval/`: TF-IDF 向量化、余弦相似度和文档检索。
+- `10-rag-context/`: 文档切分、重叠窗口、上下文编号和提示构造。
 
 ## 使用方法
 

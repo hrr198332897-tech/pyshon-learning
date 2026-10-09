@@ -13,6 +13,7 @@
 - `08-pandas-report/`: 使用 Pandas 筛选和汇总学习记录。
 - `09-ml-classifier/`: 使用 scikit-learn 训练和评估分类器。
 - `10-document-search/`: 对本地文档建立索引并返回最相关内容。
+- `11-rag-context/`: 切分文档并构造带来源的 RAG 上下文。
 
 完成练习后，至少执行一次脚本或测试，并在周记录中写下结果。
 
