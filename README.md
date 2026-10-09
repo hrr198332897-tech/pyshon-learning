@@ -42,6 +42,18 @@
 
 建议每周投入 5 到 8 小时。时间不足时可以降低篇幅，但保留“写代码、运行、复盘、提交”四个动作。
 
+## 本地环境
+
+创建项目专用虚拟环境并安装依赖:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+`.venv/` 已被 Git 忽略。
+
 ## 统一检查
 
 运行以下命令，会依次检查所有课程和练习目录:
@@ -61,4 +73,5 @@ python tools/run_checks.py
 - 第一阶段项目: [学习记录命令行工具](projects/01-study-tracker/README.md)
 - 第二阶段课程: [CSV 数据清洗](lessons/05-csv-data/README.md)
 - 第二阶段课程: [HTTP API 与 JSON](lessons/06-http-json/README.md)
+- 第二阶段课程: [Pandas 数据分析](lessons/07-pandas-basics/README.md)
 - 推荐起点: [第 1 课: 变量、输入与函数](lessons/01-variables-and-flow/README.md)

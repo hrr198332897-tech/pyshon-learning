@@ -10,6 +10,7 @@
 - `04-files-and-errors/`: 路径、JSON 文件、异常处理和本地数据保存。
 - `05-csv-data/`: CSV 读取、字段转换、数据校验和结果写回。
 - `06-http-json/`: HTTP 请求、JSON 响应、错误处理和本地测试服务器。
+- `07-pandas-basics/`: DataFrame、筛选、分组汇总和结果导出。
 
 ## 使用方法
 

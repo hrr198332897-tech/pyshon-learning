@@ -10,6 +10,7 @@
 - `05-json-study-log/`: 把学习记录保存为 JSON 文件。
 - `06-csv-cleaner/`: 清洗学习记录 CSV 并输出规范数据。
 - `07-api-client/`: 请求 JSON API、提取记录并生成汇总。
+- `08-pandas-report/`: 使用 Pandas 筛选和汇总学习记录。
 
 完成练习后，至少执行一次脚本或测试，并在周记录中写下结果。
 
