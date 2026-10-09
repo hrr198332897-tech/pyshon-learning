@@ -4,17 +4,15 @@ GitHub 不只是保存代码的地方。这个仓库用它记录每次可验证�
 
 ## 一次性设置
 
-在 GitHub 创建名为 `pyshon-learning` 的空仓库后，先配置提交身份:
+当前仓库的远程地址已经配置为:
 
-```powershell
-git config --global user.name "你的 GitHub 用户名"
-git config --global user.email "你的 GitHub 验证邮箱"
+```text
+https://github.com/hrr198332897-tech/pyshon-learning.git
 ```
 
-连接远程仓库:
+在 GitHub 创建同名空仓库后，首次推送:
 
 ```powershell
-git remote add origin https://github.com/你的用户名/pyshon-learning.git
 git push -u origin main
 ```
 
@@ -36,6 +34,8 @@ git push -u origin week/01-python-basics
 ```
 
 在 GitHub 创建 Pull Request，检查改动并写出本周结论，然后合并到 `main`。
+
+仓库已经包含 Issue 和 Pull Request 模板，可以直接用于每周任务。
 
 ## Commit 写法
 

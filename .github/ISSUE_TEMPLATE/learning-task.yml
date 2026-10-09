@@ -1,0 +1,41 @@
+name: 学习任务
+description: 规划并跟踪一次课程、练习或项目迭代
+title: "[Week N] "
+body:
+  - type: input
+    id: outcome
+    attributes:
+      label: 可验证成果
+      description: 完成后应该能运行、演示或解释什么？
+      placeholder: 完成 CSV 清洗脚本并通过 5 项测试
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 执行步骤
+      description: 写出 2 到 5 个最小步骤
+      placeholder: |
+        1. 阅读课程说明
+        2. 完成函数
+        3. 运行测试
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: 验证方式
+      description: 使用什么命令或观察结果证明完成？
+      placeholder: python -m unittest discover ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reflection
+    attributes:
+      label: 完成后复盘
+      description: 合并后再补充遇到的错误、解决方式和下一步
+    validations:
+      required: false
