@@ -19,6 +19,7 @@
 | `projects/` | 可独立运行并被展示的项目 |
 | `journal/` | 每周学习记录和复盘 |
 | `templates/` | 可复用的记录模板 |
+| `tools/` | 仓库级检查与辅助脚本 |
 
 ## 16 周路线
 
@@ -41,9 +42,19 @@
 
 建议每周投入 5 到 8 小时。时间不足时可以降低篇幅，但保留“写代码、运行、复盘、提交”四个动作。
 
+## 统一检查
+
+运行以下命令，会依次检查所有课程和练习目录:
+
+```powershell
+python tools/run_checks.py
+```
+
+推送到 GitHub 后，同一套检查也会由 GitHub Actions 自动运行。
+
 ## 当前状态
 
 - Python: 3.13.15
 - Git: 2.55.0
-- GitHub 远程仓库: 尚未连接
-- 下一步: 完成 [环境自检](exercises/00-environment/README.md)，并填写 [学习基线](docs/00-baseline.md)
+- GitHub 远程地址: 已配置，空仓库等待创建
+- 下一步: 完成 [环境自检](exercises/00-environment/README.md)，并开始[第 1 课](lessons/01-variables-and-flow/README.md)
