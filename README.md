@@ -75,4 +75,5 @@ python tools/run_checks.py
 - 第二阶段课程: [HTTP API 与 JSON](lessons/06-http-json/README.md)
 - 第二阶段课程: [Pandas 数据分析](lessons/07-pandas-basics/README.md)
 - 第二阶段项目: [学习数据报告生成器](projects/02-study-report/README.md)
+- 第三阶段课程: [scikit-learn 机器学习入门](lessons/08-scikit-learn/README.md)
 - 推荐起点: [第 1 课: 变量、输入与函数](lessons/01-variables-and-flow/README.md)
