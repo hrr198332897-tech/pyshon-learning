@@ -57,4 +57,4 @@ python tools/run_checks.py
 - Python: 3.13.15
 - Git: 2.55.0
 - GitHub 远程地址: 已配置，空仓库等待创建
-- 下一步: 完成 [环境自检](exercises/00-environment/README.md)，并开始[第 1 课](lessons/01-variables-and-flow/README.md)
+- 当前课程: [第 2 课: 条件判断与循环](lessons/02-conditions-and-loops/README.md)

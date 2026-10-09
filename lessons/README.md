@@ -5,6 +5,7 @@
 ## 已完成课程
 
 - `01-variables-and-flow/`: 变量、数据类型、输入输出、函数和 f-string。
+- `02-conditions-and-loops/`: 布尔判断、if/elif/else、for 循环和枚举。
 
 ## 使用方法
 
