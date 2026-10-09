@@ -78,4 +78,5 @@ python tools/run_checks.py
 - 第三阶段课程: [scikit-learn 机器学习入门](lessons/08-scikit-learn/README.md)
 - 第三阶段课程: [文本检索与相似度](lessons/09-tfidf-retrieval/README.md)
 - 第三阶段课程: [RAG 文档切分与上下文](lessons/10-rag-context/README.md)
+- 第三阶段项目: [本地知识搜索](projects/03-knowledge-search/README.md)
 - 推荐起点: [第 1 课: 变量、输入与函数](lessons/01-variables-and-flow/README.md)
