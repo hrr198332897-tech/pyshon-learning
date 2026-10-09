@@ -8,6 +8,7 @@
 - `02-conditions-and-loops/`: 布尔判断、if/elif/else、for 循环和枚举。
 - `03-lists-dicts-functions/`: 列表、字典、排序和函数组合。
 - `04-files-and-errors/`: 路径、JSON 文件、异常处理和本地数据保存。
+- `05-csv-data/`: CSV 读取、字段转换、数据校验和结果写回。
 
 ## 使用方法
 

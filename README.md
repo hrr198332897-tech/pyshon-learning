@@ -59,4 +59,5 @@ python tools/run_checks.py
 - GitHub 远程地址: 已配置，空仓库等待创建
 - 已准备课程: 第 1 到 4 课
 - 第一阶段项目: [学习记录命令行工具](projects/01-study-tracker/README.md)
+- 第二阶段课程: [CSV 数据清洗](lessons/05-csv-data/README.md)
 - 推荐起点: [第 1 课: 变量、输入与函数](lessons/01-variables-and-flow/README.md)
