@@ -40,4 +40,3 @@ python exercises/02-variables-and-input/study_tracker.py
 - 三个函数的测试全部通过或不再跳过。
 - 输入无效分钟数时，脚本不会直接崩溃。
 - 能把函数与循环、条件配合的改进想法写进周记录。
-

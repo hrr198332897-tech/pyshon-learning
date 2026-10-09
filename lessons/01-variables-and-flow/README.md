@@ -72,4 +72,3 @@ python -m unittest discover lessons/01-variables-and-flow -v
 1. 为什么 `input()` 的结果不能直接参与数学计算？
 2. `return` 和 `print()` 有什么区别？
 3. f-string 中的 `{hours:.1f}` 做了什么？
-
