@@ -1,7 +1,7 @@
 """Level 0: run code only when a condition is true."""
 
 
-score = 50
+score = 60
 
 if score >= 60:
     print("通过")
