@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECK_ROOTS = ("lessons", "exercises", "projects")
+CHECK_ROOTS = ("lessons", "exercises", "projects", "tools")
 SUBPROCESS_ENV = {**os.environ, "PYTHONUTF8": "1"}
 
 
