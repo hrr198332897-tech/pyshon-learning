@@ -9,7 +9,8 @@
 - 为中文和英文建立字符级 TF-IDF 索引。
 - 返回最相关片段、来源文件和片段编号。
 - 没有相关内容时明确回答“不知道”。
-- 提供可插拔 `generator`，后续可以接入真实大模型。
+- 默认使用本地检索式回答，不需要密钥。
+- 支持通过环境变量接入远程模型生成回答。
 
 ## 运行
 
@@ -32,6 +33,17 @@ python -m knowledge_search --query "RAG 是什么" --show-context
 python -m knowledge_search --documents C:\path\to\notes --query "你的问题"
 ```
 
+使用远程模型生成:
+
+```powershell
+$env:LLM_ENDPOINT = "https://example.com/generate"
+$env:LLM_API_KEY = "你的密钥"
+$env:LLM_MODEL = "example-model"
+python -m knowledge_search --query "RAG 是什么" --use-llm
+```
+
+模型服务需要接受 `model` 和 `prompt` 两个 JSON 字段，并返回 `text` 字段。
+
 ## 代码结构
 
 | 文件 | 职责 |
@@ -39,6 +51,7 @@ python -m knowledge_search --documents C:\path\to\notes --query "你的问题"
 | `knowledge_search/documents.py` | 文档扫描和重叠分块 |
 | `knowledge_search/index.py` | TF-IDF 索引与相似度检索 |
 | `knowledge_search/answer.py` | 提示构造、检索式回答和模型边界 |
+| `knowledge_search/provider.py` | 环境变量配置和远程模型请求 |
 | `knowledge_search/cli.py` | 命令行入口 |
 
 ## 测试

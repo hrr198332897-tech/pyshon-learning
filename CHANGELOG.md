@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.1.1 - 2026-10-09
+
+### Added
+
+- Knowledge search CLI option `--use-llm`.
+- Environment-based remote model provider.
+- End-to-end tests for local answers and remote generated answers.
+
+### Verification
+
+- 25 个测试目录。
+- 91 项示范和项目测试通过。
+- 48 项练习测试等待学习者完成。
+
 ## v0.1.0 - 2026-10-09
 
 ### Added

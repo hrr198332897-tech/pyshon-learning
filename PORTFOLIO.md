@@ -46,7 +46,7 @@ python -m study_report --input examples/sessions.csv
 - 中英文 TF-IDF 检索。
 - 余弦相似度和稳定排序。
 - 无匹配保护。
-- 可插拔模型生成器接口。
+- 可插拔模型生成器接口和 `--use-llm` 远程生成模式。
 
 运行:
 
@@ -63,4 +63,4 @@ python -m knowledge_search --query "RAG 是什么" --show-context
 .\.venv\Scripts\python.exe tools/run_checks.py
 ```
 
-当前结果: 87 项测试通过，48 项练习测试等待完成。
+当前结果: 91 项测试通过，48 项练习测试等待完成。
