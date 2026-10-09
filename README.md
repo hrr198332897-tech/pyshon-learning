@@ -57,4 +57,5 @@ python tools/run_checks.py
 - Python: 3.13.15
 - Git: 2.55.0
 - GitHub 远程地址: 已配置，空仓库等待创建
-- 当前课程: [第 2 课: 条件判断与循环](lessons/02-conditions-and-loops/README.md)
+- 已准备课程: 第 1 到 4 课
+- 推荐起点: [第 1 课: 变量、输入与函数](lessons/01-variables-and-flow/README.md)

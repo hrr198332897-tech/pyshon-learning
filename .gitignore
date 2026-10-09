@@ -10,6 +10,9 @@ __pycache__/
 .coverage
 htmlcov/
 
+# Local exercise data
+/data/local/
+
 # Editor and operating system files
 .idea/
 .vscode/
