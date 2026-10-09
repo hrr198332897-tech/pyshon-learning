@@ -1,0 +1,21 @@
+# Local Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Test and tooling output
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Saved course pages used as local references
+*.html
+ai.json
