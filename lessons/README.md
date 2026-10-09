@@ -12,6 +12,7 @@
 - `06-http-json/`: HTTP 请求、JSON 响应、错误处理和本地测试服务器。
 - `07-pandas-basics/`: DataFrame、筛选、分组汇总和结果导出。
 - `08-scikit-learn/`: 数据集划分、Pipeline、训练、预测和准确率评估。
+- `09-tfidf-retrieval/`: TF-IDF 向量化、余弦相似度和文档检索。
 
 ## 使用方法
 
