@@ -6,10 +6,10 @@
 
 | 项目 | 当前状态 | 验证方式 |
 | --- | --- | --- |
-| Python | 3.13.15 | `python --version` |
-| Git | 2.55.0 | `git --version` |
+| Python | 本机待确认 | `python --version` |
+| Git | 本机待确认 | `git --version` |
 | 仓库分支 | `main` | `git status --short --branch` |
-| GitHub 远程 | 未连接 | `git remote -v` |
+| GitHub 远程 | GitHub 已有提交，本机配置待确认 | `git remote -v` |
 
 ## 自评
 
