@@ -1,4 +1,6 @@
-# 作品集
+# 参考项目索引
+
+以下为仓库参考实现。学生独立实现、功能改造及口头讲解尚未验收，暂不作为个人独立作品宣称。
 
 ## 1. 学习记录命令行工具
 
@@ -63,4 +65,4 @@ python -m knowledge_search --query "RAG 是什么" --show-context
 .\.venv\Scripts\python.exe tools/run_checks.py
 ```
 
-当前结果: 91 项测试通过，48 项练习测试等待完成。
+测试数量以实际检查输出为准；跳过项不计为已完成。

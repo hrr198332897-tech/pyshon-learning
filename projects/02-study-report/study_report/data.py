@@ -45,8 +45,11 @@ def load_sessions(path: Path) -> Any:
         raise ValueError("label cannot be empty")
 
     try:
-        frame["minutes"] = pd.to_numeric(frame["minutes"], errors="raise").astype("int64")
-    except (TypeError, ValueError) as exc:
+        numbers = pd.to_numeric(frame["minutes"], errors="raise")
+        if numbers.isna().any() or not numbers.mod(1).eq(0).all():
+            raise ValueError("minutes must contain finite integers")
+        frame["minutes"] = numbers.astype("int64")
+    except (TypeError, ValueError, OverflowError) as exc:
         raise ValueError("minutes must contain integers") from exc
 
     if frame["minutes"].lt(0).any():

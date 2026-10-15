@@ -1,4 +1,8 @@
-# Python in the AI Era
+# Python 学习仓库
+
+**下一步先读 [START_HERE.md](START_HERE.md)。当前以基础练习验收为主。**
+
+课程与三个项目属于学习材料和参考实现，不能作为本人已经掌握或独立完成的证明。
 
 这是一个面向 AI 时代的 Python 学习仓库。目标不是快速刷完课程，而是建立稳定的编程能力，并用 GitHub 持续记录练习、项目、复盘和成长轨迹。
 
@@ -68,19 +72,9 @@ python tools/run_checks.py
 
 ## 当前状态
 
-- Python: 3.13.15
-- Git: 2.55.0
-- GitHub 远程地址: 已配置，空仓库等待创建
-- 已准备课程: 第 1 到 4 课
-- 第一阶段项目: [学习记录命令行工具](projects/01-study-tracker/README.md)
-- 第二阶段课程: [CSV 数据清洗](lessons/05-csv-data/README.md)
-- 第二阶段课程: [HTTP API 与 JSON](lessons/06-http-json/README.md)
-- 第二阶段课程: [Pandas 数据分析](lessons/07-pandas-basics/README.md)
-- 第二阶段项目: [学习数据报告生成器](projects/02-study-report/README.md)
-- 第三阶段课程: [scikit-learn 机器学习入门](lessons/08-scikit-learn/README.md)
-- 第三阶段课程: [文本检索与相似度](lessons/09-tfidf-retrieval/README.md)
-- 第三阶段课程: [RAG 文档切分与上下文](lessons/10-rag-context/README.md)
-- 第三阶段课程: [模型服务适配层](lessons/11-llm-adapter/README.md)
-- 工程化课程: [类型标注、数据类与日志](lessons/12-dataclasses-logging/README.md)
-- 第三阶段项目: [本地知识搜索](projects/03-knowledge-search/README.md)
-- 推荐起点: [第 1 课: 变量、输入与函数](lessons/01-variables-and-flow/README.md)
+- GitHub 仓库已建立并推送；本机 Python/Git 版本请实际运行命令确认。
+- 已准备第 0–12 课、练习骨架和三个参考项目。
+- 可见基础练习包含变量、加法、拼接和条件判断；独立掌握程度待验收。
+- 部分练习通过跳过未实现函数保持维护检查可运行；检查成功不等于学完。
+- 单个练习验收：`python tools/run_checks.py --exercise 02-variables-and-input --strict`。
+- 16 周路线为参考，当前执行顺序与验收标准以 START_HERE.md 为准。

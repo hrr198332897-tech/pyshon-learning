@@ -45,6 +45,17 @@ class DataTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 load_sessions(path)
 
+    def test_reject_non_integer_minutes(self) -> None:
+        for value in ("1.5", "-0.5", "", "NaN", "inf", "-inf", "1e30"):
+            with self.subTest(minutes=value), tempfile.TemporaryDirectory() as directory:
+                path = Path(directory) / "bad.csv"
+                path.write_text(
+                    f"date,minutes,label,note\n2026-10-09,{value},python,test\n",
+                    encoding="utf-8",
+                )
+                with self.assertRaises(ValueError):
+                    load_sessions(path)
+
     def test_negative_minutes(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "bad.csv"
